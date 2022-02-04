@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body {
+    background-color: #E5E5E5;
+    margin-bottom: 50px;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+nav {
+    background-color: #8EBAFD;
+}
+nav > ul {
+    display: flex;
+}
+ul > li {
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+    
+}
+form > input {
+    width: 70%;
+    padding: 10px 20px;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+form > button {
+    width: 30%;
+    background-color: #5394F4;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+h1 {
+    font-family: 'Roboto';
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Roboto';
+    text-align: left;
+}
+.principal img {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+.principal p {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+footer {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.footer-article p {
+    width: 100%;
+    text-align: justify;    
+}
+.footer-article h2 {
+    font-family: 'Roboto';
+    width: 100%;
+    text-align: left;
+}
+.footer-article img {
+    width: 100%;
+}
+.footer-article {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .footer-article {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+    .principal img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+    .principal p {
+        width: 90%;
+        margin: auto;
+        padding: 20px 0px;
+    
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    hr {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    h1 {
+        width: 90%;
+        text-align: left;
+    }
+    form {
+        width: 90%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
