@@ -17,6 +17,7 @@ nav {
 }
 nav > ul {
     display: flex;
+    align-items: center;
 }
 ul > li {
     width: 25%;
@@ -28,11 +29,12 @@ li > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: 1s;
 }
 form {
     display: flex;
     margin: 20px auto;
-    width: 50%;
+    width: 80%;
     
 }
 form > input {
@@ -53,7 +55,7 @@ form > button {
 }
 h1 {
     font-family: 'Roboto';
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     text-align: left;
     padding: 20px 0px;
@@ -66,10 +68,10 @@ h2 {
 .principal img {
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 .principal p {
-    width: 50%;
+    width: 80%;
     margin: auto;
     padding: 20px 0px;
 
@@ -77,18 +79,19 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 hr {
-    width: 50%;
-    margin: auto;
+    width: 80%;
+    margin: 20px auto;
     display: flex;
 }
 footer {
     display: flex;
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
-.footer-article p {
+.footer-article small {
     width: 100%;
-    text-align: justify;    
+    text-align: justify; 
+    margin: 20px auto;   
 }
 .footer-article h2 {
     font-family: 'Roboto';
@@ -102,6 +105,10 @@ footer {
     float: left;
     width: 50%;
     padding: 0 10px;
+    transition: 1s;
+}
+.footer-article:hover {
+    box-shadow: 2px 0px 9px 0px black;
 }
 /* Responsive columns */
 @media screen and (max-width: 600px) {
